@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <!-- ══════════════ SEO ══════════════ -->
+    <title>Hello Web | Diseño y Desarrollo de Páginas Web Premium</title>
+    <meta name="description" content="Hello Web diseña y desarrolla sitios web premium: landing pages, sitios corporativos y tiendas en línea con animaciones, 3D, velocidad y SEO. Cotiza tu proyecto hoy.">
+    <meta name="author" content="Hello Web">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#09090b">
+    <!-- TODO: reemplazar por el dominio real -->
+    <link rel="canonical" href="https://helloweb.mx/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="Hello Web">
+    <meta property="og:title" content="Hello Web | Sitios web que convierten">
+    <meta property="og:description" content="Diseño y desarrollo web premium para negocios que quieren verse como una gran marca y vender más.">
+    <meta property="og:url" content="https://helloweb.mx/">
+    <!-- TODO: subir una imagen 1200x630 y actualizar la ruta -->
+    <meta property="og:image" content="https://helloweb.mx/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hello Web | Sitios web que convierten">
+    <meta name="twitter:description" content="Landing pages, sitios corporativos y e-commerce con animaciones, 3D, velocidad y SEO.">
+    <meta name="twitter:image" content="https://helloweb.mx/og-image.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%233d7bff'/%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://raw.githubusercontent.com">
+    <link rel="preconnect" href="https://cdn.21st.dev" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://helloweb.mx/#org",
+          "name": "Hello Web",
+          "url": "https://helloweb.mx/",
+          "description": "Estudio de diseño y desarrollo web premium: landing pages, sitios corporativos, e-commerce y plataformas web con animaciones, 3D, velocidad y SEO.",
+          "areaServed": "MX",
+          "priceRange": "$$",
+          "telephone": "+52 000 000 0000",
+          "email": "hola@helloweb.mx",
+          "knowsAbout": ["Diseño web", "Desarrollo web", "Landing pages", "E-commerce", "SEO", "Animación web", "3D web"]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://helloweb.mx/#website",
+          "url": "https://helloweb.mx/",
+          "name": "Hello Web",
+          "inLanguage": "es-MX",
+          "publisher": { "@id": "https://helloweb.mx/#org" }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "¿Cuánto tarda el desarrollo de mi sitio web?", "acceptedAnswer": { "@type": "Answer", "text": "Una landing page se entrega en 7 a 10 días. Un sitio corporativo toma de 3 a 4 semanas y una tienda en línea depende del catálogo y las integraciones. Recibes un calendario claro antes de empezar." } },
+            { "@type": "Question", "name": "¿Qué necesito para empezar?", "acceptedAnswer": { "@type": "Answer", "text": "Solo tu idea y una sesión de descubrimiento de 45 minutos. Si no tienes logo, textos o fotografías, te ayudamos a resolverlo." } },
+            { "@type": "Question", "name": "¿El sitio incluye hosting y dominio?", "acceptedAnswer": { "@type": "Answer", "text": "Te asesoramos para contratar el dominio a tu nombre y configuramos un hosting rápido y seguro. Tú conservas la propiedad de todo." } },
+            { "@type": "Question", "name": "¿Podré editar el contenido yo mismo?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Entregamos el sitio con un panel sencillo o te capacitamos para actualizar textos, imágenes y productos sin depender de nadie." } },
+            { "@type": "Question", "name": "¿Cómo funcionan los pagos?", "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos con un anticipo para iniciar y el resto contra entrega. Todo queda por escrito antes de empezar." } },
+            { "@type": "Question", "name": "¿Qué pasa después del lanzamiento?", "acceptedAnswer": { "@type": "Answer", "text": "Monitoreamos el sitio durante los primeros 30 días y ofrecemos planes de mantenimiento con mejoras continuas, seguridad y soporte humano." } }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<!-- ══════════════ ICONOS (sprite) ══════════════ -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-arrow-r" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-arrow-l" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 9.5 17 19 7.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-layout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"><path d="M12 3l1.9 5.6L19.5 10.5l-5.6 1.9L12 18l-1.9-5.6L4.5 10.5l5.6-1.9zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v16M14 9h5a1 1 0 0 1 1 1v11M3 21h18M8 8h2M8 12h2M8 16h2M17 13h1M17 17h1"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6"/><circle cx="9.5" cy="20" r="1"/><circle cx="17.5" cy="20" r="1"/></symbol>
+    <symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19a9 9 0 1 1 14 0M12 14l4-5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V6zM9 12l2 2 4-4"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.3l-5.6 2.9 1.1-6.3-4.6-4.4 6.3-.9z"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+</svg>
+
+<!-- ══════════════ LOADER (cortina doble) ══════════════ -->
+<div class="loader" id="loader" role="status" aria-live="polite" aria-label="Cargando Hello Web">
+    <div class="loader__panel loader__panel--top" aria-hidden="true"></div>
+    <div class="loader__panel loader__panel--bottom" aria-hidden="true"></div>
+    <div class="loader__inner">
+        <div class="loader__brand" aria-hidden="true">
+            <span class="loader__letter">h</span><span class="loader__letter">e</span><span class="loader__letter">l</span><span class="loader__letter">l</span><span class="loader__letter">o</span><span class="loader__letter loader__letter--dot">.</span><span class="loader__letter">w</span><span class="loader__letter">e</span><span class="loader__letter">b</span>
+        </div>
+        <div class="loader__meta">
+            <span class="loader__count mono" id="loaderCount">000</span>
+            <span class="loader__hint">Preparando la experiencia</span>
+        </div>
+        <div class="loader__track"><span class="loader__fill" id="loaderFill"></span></div>
+    </div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__dot"></span><span class="cursor__label" id="cursorLabel"></span></div>
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<!-- ══════════════ NAVEGACIÓN ══════════════ -->
+<header class="nav" id="nav">
+    <div class="container nav__inner">
+        <a class="brand" href="#inicio" aria-label="Hello Web, ir al inicio"><span class="brand__text">hello<em>.</em>web</span></a>
+        <nav class="nav__links" aria-label="Secciones">
+            <a href="#servicios" data-nav="servicios" data-scramble>Servicios</a>
+            <a href="#experiencia" data-nav="experiencia" data-scramble>Experiencia</a>
+            <a href="#proyectos" data-nav="proyectos" data-scramble>Proyectos</a>
+            <a href="#proceso" data-nav="proceso" data-scramble>Proceso</a>
+            <a href="#planes" data-nav="planes" data-scramble>Planes</a>
+        </nav>
+        <div class="nav__actions">
+            <a class="btn btn--sm btn--primary" href="#contacto" data-magnetic>Hablemos</a>
+            <button class="nav__burger" id="navBurger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+                <svg class="nav__burger-open" width="22" height="22" aria-hidden="true"><use href="#i-menu"/></svg>
+                <svg class="nav__burger-close" width="22" height="22" aria-hidden="true"><use href="#i-x"/></svg>
+            </button>
+        </div>
+    </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true" data-lenis-prevent>
+    <nav class="menu__links" aria-label="Menú móvil">
+        <a href="#servicios" style="--i:0">Servicios</a>
+        <a href="#experiencia" style="--i:1">Experiencia</a>
+        <a href="#proyectos" style="--i:2">Proyectos</a>
+        <a href="#proceso" style="--i:3">Proceso</a>
+        <a href="#planes" style="--i:4">Planes</a>
+        <a href="#contacto" style="--i:5">Contacto</a>
+    </nav>
+    <div class="menu__foot" style="--i:6">
+        <a class="btn btn--primary btn--block" href="#contacto">Quiero mi sitio web</a>
+        <a class="btn btn--ghost btn--block" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa><svg width="18" height="18" aria-hidden="true"><use href="#i-whatsapp"/></svg> Escribir por WhatsApp</a>
+    </div>
+</div>
+
+<main id="main">
+
+<!-- ══════════════ HERO: solo letras + shader de anillos de luz ══════════════ -->
+<section class="hero" id="inicio" aria-labelledby="heroTitle">
+    <div class="hero__spacer" data-pin="hero">
+        <div class="hero__stage" id="heroStage">
+            <div class="hero__bg" aria-hidden="true">
+                <canvas class="hero__gl" id="heroCanvas"></canvas>
+                <div class="hero__fallback"></div>
+                <div class="hero__vignette"></div>
+            </div>
+            <div class="container hero__inner" id="heroInner">
+                <h1 class="hero__title" id="heroTitle">
+                    <span class="sr-only">Sitios web que convierten.</span>
+                    <span class="hero__line" aria-hidden="true" data-chars>Sitios web que</span>
+                    <span class="hero__line hero__line--swap" aria-hidden="true">
+                        <span class="swap" id="heroSwap">
+                            <span class="swap__word is-active">convierten.</span>
+                            <span class="swap__word">enamoran.</span>
+                            <span class="swap__word">venden.</span>
+                            <span class="swap__word">impactan.</span>
+                        </span>
+                    </span>
+                </h1>
+                <div class="hero__foot" id="heroFoot">
+                    <p class="hero__sub">Diseño y desarrollo web premium para negocios que quieren verse como una gran marca.</p>
+                    <div class="hero__cta">
+                        <a class="btn btn--primary btn--lg" href="#contacto" data-magnetic>Quiero mi sitio web</a>
+                        <a class="btn btn--ghost btn--lg" href="#experiencia" data-magnetic>Vivir la experiencia <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ BANDA CINÉTICA + STACK ══════════════ -->
+<section class="kinetic" aria-label="Lo que hacemos">
+    <div class="kinetic__row" data-kinetic="1" aria-hidden="true">
+        <span>Diseño web</span><span>Landing pages</span><span>E-commerce</span><span>Motion</span><span>SEO</span><span>Apps web</span>
+        <span>Diseño web</span><span>Landing pages</span><span>E-commerce</span><span>Motion</span><span>SEO</span><span>Apps web</span>
+    </div>
+    <div class="kinetic__row kinetic__row--outline" data-kinetic="-1" aria-hidden="true">
+        <span>Branding</span><span>Sitios corporativos</span><span>3D</span><span>Animación</span><span>Rendimiento</span><span>Conversión</span>
+        <span>Branding</span><span>Sitios corporativos</span><span>3D</span><span>Animación</span><span>Rendimiento</span><span>Conversión</span>
+    </div>
+    <p class="kinetic__note container">Construido con la misma tecnología que usan las empresas líderes</p>
+    <div class="marquee" data-marquee>
+        <ul class="marquee__track">
+            <li><img src="https://cdn.simpleicons.org/react/ffffff" alt="React" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/nextdotjs/ffffff" alt="Next.js" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/typescript/ffffff" alt="TypeScript" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/tailwindcss/ffffff" alt="Tailwind CSS" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/threedotjs/ffffff" alt="Three.js" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/nodedotjs/ffffff" alt="Node.js" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/figma/ffffff" alt="Figma" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/vercel/ffffff" alt="Vercel" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/shopify/ffffff" alt="Shopify" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/wordpress/ffffff" alt="WordPress" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/stripe/ffffff" alt="Stripe" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/supabase/ffffff" alt="Supabase" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/cloudflare/ffffff" alt="Cloudflare" width="34" height="34" loading="lazy"></li>
+            <li><img src="https://cdn.simpleicons.org/googleanalytics/ffffff" alt="Google Analytics" width="34" height="34" loading="lazy"></li>
+        </ul>
+    </div>
+</section>
+
+<!-- ══════════════ EXPERIENCIA: "hello." centrado que se abre desde el medio ══════════════ -->
+<section class="reveal" id="experiencia" aria-labelledby="revealTitle">
+    <div class="reveal__spacer" data-pin="reveal">
+        <div class="reveal__stage">
+            <div class="reveal__media" id="revealMedia" aria-hidden="true">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2200&q=80" alt="" width="2200" height="1466" loading="lazy" decoding="async">
+            </div>
+            <svg class="reveal__mask" id="revealSvg" aria-hidden="true">
+                <defs>
+                    <mask id="revealMaskDef" maskUnits="userSpaceOnUse">
+                        <rect width="100%" height="100%" fill="#fff"/>
+                        <text id="revealText" x="50%" y="50%" text-anchor="middle" dominant-baseline="central" fill="#000">hello.</text>
+                        <circle id="revealHole" cx="50%" cy="50%" r="0" fill="#000"/>
+                    </mask>
+                </defs>
+                <rect class="reveal__cover" width="100%" height="100%" mask="url(#revealMaskDef)"/>
+            </svg>
+            <div class="reveal__copy" id="revealCopy">
+                <h2 class="reveal__title" id="revealTitle">Un sitio web puede cambiar la historia de tu negocio.</h2>
+                <p>Lo vemos cada semana: un negocio local que de pronto compite con marcas de todo el mundo. Esto es lo que construimos.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ SERVICIOS (bento 3D ligado al scroll) ══════════════ -->
+<section class="services section" id="servicios" aria-labelledby="servTitle">
+    <div class="container">
+        <header class="section__head" data-reveal>
+            <span class="eyebrow">Servicios</span>
+            <h2 class="h2" id="servTitle" data-split>Todo lo que tu presencia digital necesita, hecho a la medida.</h2>
+            <p class="lead">Desde una landing page que vende hasta una tienda en línea completa. Sin plantillas, sin límites.</p>
+        </header>
+
+        <div class="bento">
+            <article class="cell cell--a" data-scrub data-spot data-tilt>
+                <figure class="cell__media" data-parallax="0.12">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1400&q=80" alt="Laptop mostrando una landing page moderna sobre un escritorio" width="1400" height="930" loading="lazy" decoding="async">
+                </figure>
+                <div class="chips" aria-hidden="true">
+                    <span class="chip chip--1"><svg width="14" height="14"><use href="#i-bolt"/></svg> Carga instantánea</span>
+                    <span class="chip chip--2"><svg width="14" height="14"><use href="#i-check"/></svg> Más conversión</span>
+                    <span class="chip chip--3"><svg width="14" height="14"><use href="#i-sparkle"/></svg> Motion 3D</span>
+                </div>
+                <div class="cell__body">
+                    <svg class="cell__icon" width="22" height="22" aria-hidden="true"><use href="#i-layout"/></svg>
+                    <h3>Landing pages que venden</h3>
+                    <p>Una sola página, un solo objetivo: convertir visitas en clientes. Copy persuasivo, velocidad y diseño que genera confianza.</p>
+                </div>
+            </article>
+
+            <article class="cell cell--b" data-scrub data-spot data-tilt>
+                <div class="cell__live" aria-hidden="true">
+                    <video class="cell__video" muted loop playsinline preload="none" data-lazy-video src="https://videos.pexels.com/video-files/3129671/3129671-hd_1280_720_30fps.mp4"></video>
+                    <div class="orbit">
+                        <span class="orbit__ring orbit__ring--1"></span>
+                        <span class="orbit__ring orbit__ring--2"></span>
+                        <span class="orbit__ring orbit__ring--3"></span>
+                        <span class="orbit__core"></span>
+                    </div>
+                </div>
+                <div class="cell__body">
+                    <svg class="cell__icon" width="22" height="22" aria-hidden="true"><use href="#i-sparkle"/></svg>
+                    <h3>Animación, 3D y motion</h3>
+                    <p>Efectos de scroll, transiciones y escenas 3D que hacen que tu marca se sienta premium desde el primer segundo.</p>
+                </div>
+            </article>
+
+            <article class="cell cell--c" data-scrub data-spot data-tilt>
+                <figure class="cell__media" data-parallax="0.1">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80" alt="Oficina corporativa moderna con luz natural" width="1000" height="667" loading="lazy" decoding="async">
+                </figure>
+                <div class="cell__body">
+                    <svg class="cell__icon" width="22" height="22" aria-hidden="true"><use href="#i-building"/></svg>
+                    <h3>Sitios corporativos</h3>
+                    <p>Tu empresa con la imagen que merece: secciones, blog y formularios conectados a tu equipo.</p>
+                </div>
+            </article>
+
+            <article class="cell cell--d" data-scrub data-spot data-tilt>
+                <figure class="cell__media" data-parallax="0.1">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=80" alt="Producto fotografiado para una tienda en línea" width="1000" height="667" loading="lazy" decoding="async">
+                </figure>
+                <div class="cell__body">
+                    <svg class="cell__icon" width="22" height="22" aria-hidden="true"><use href="#i-cart"/></svg>
+                    <h3>E-commerce</h3>
+                    <p>Tiendas en línea rápidas, con pagos seguros y una experiencia de compra impecable en celular.</p>
+                </div>
+            </article>
+
+            <article class="cell cell--e" data-scrub data-spot data-tilt>
+                <div class="cell__live cell__live--gauge" aria-hidden="true">
+                    <div class="gauge" data-gauge="98">
+                        <svg viewBox="0 0 120 120" width="120" height="120">
+                            <circle class="gauge__track" cx="60" cy="60" r="52"/>
+                            <circle class="gauge__fill" cx="60" cy="60" r="52"/>
+                        </svg>
+                        <span class="gauge__value mono">0</span>
+                    </div>
+                    <p class="gauge__note">Objetivo: 95+ en Lighthouse</p>
+                </div>
+                <div class="cell__body">
+                    <svg class="cell__icon" width="22" height="22" aria-hidden="true"><use href="#i-gauge"/></svg>
+                    <h3>SEO y rendimiento</h3>
+                    <p>Sitios que cargan en un parpadeo y aparecen en Google. Semántica, velocidad y métricas desde el día uno.</p>
+                </div>
+            </article>
+
+            <article class="cell cell--f" data-scrub data-spot data-tilt>
+                <div class="cell__glow" aria-hidden="true"></div>
+                <div class="cell__body">
+                    <svg class="cell__icon" width="22" height="22" aria-hidden="true"><use href="#i-shield"/></svg>
+                    <h3>Mantenimiento y soporte</h3>
+                    <p>Actualizaciones, seguridad y mejoras continuas con una persona real del otro lado. Nunca estás solo.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="services__cta" data-reveal>
+            <a class="btn btn--primary btn--lg" href="#contacto" data-magnetic>Cotizar mi proyecto</a>
+            <p>Respuesta en menos de 24 horas, sin compromiso.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ ESCULTURA LÍQUIDA (partículas WebGL2 que reaccionan al cursor) ══════════════
+     Basado en "Sculpture Hero" de guglielmogiannattasio.it (componente de 21st.dev),
+     portado a JavaScript sin dependencias. Las partículas viajan dispersas por Servicios
+     y se ensamblan aquí con el scroll. -->
+<section class="sculpt" id="estudio" aria-labelledby="sculptTitle">
+    <div class="sculpt__stage" aria-hidden="true">
+        <span class="sculpt__backdrop" id="sculptBackdrop">hello</span>
+        <img class="sculpt__fallback" id="sculptFallback" crossorigin="anonymous" src="https://cdn.21st.dev/assets/mirror/a1/a1fa387b6e417b26a25f317559c87cce4d241c1052c52a2b3bc2966b2aaf9b65.webp" alt="" width="1983" height="793" loading="lazy" decoding="async">
+    </div>
+    <canvas class="sculpt__canvas" id="sculptCanvas" aria-hidden="true"></canvas>
+    <p class="sculpt__hint" id="sculptHint" aria-hidden="true"><span class="sculpt__hint-fine">Mueve el cursor sobre la escultura</span><span class="sculpt__hint-touch">Toca la escultura</span></p>
+    <div class="container sculpt__content" id="sculptContent">
+        <h2 class="sculpt__title" id="sculptTitle" data-split>Una web que se siente viva.</h2>
+        <div class="sculpt__aside" data-reveal>
+            <p>Esta escultura está hecha de miles de partículas que reaccionan a ti. Ese mismo nivel de detalle es el que llevamos a cada sitio que diseñamos.</p>
+            <div class="sculpt__ctas">
+                <a class="btn btn--primary" href="#contacto" data-magnetic>Quiero algo así</a>
+                <a class="link-arrow" href="#proyectos">Ver proyectos <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ SECUENCIA DE FRAMES (MacBook Neo): el scroll controla el video ══════════════ -->
+<section class="fsh" id="nivel" aria-labelledby="fshTitle" data-theme-light>
+    <div class="fsh__spacer" data-pin="fsh">
+        <div class="fsh__stage" id="fshStage">
+            <canvas class="fsh__canvas" id="fshCanvas" aria-hidden="true"></canvas>
+            <div class="fsh__loader" id="fshLoader" aria-hidden="true">
+                <span class="fsh__loader-text mono" id="fshLoaderText">Cargando · 0%</span>
+                <span class="fsh__loader-track"><i id="fshLoaderFill"></i></span>
+            </div>
+            <div class="fsh__layout">
+                <div class="fsh__copy">
+                    <h2 class="fsh__title" id="fshTitle"><span class="fsh__title-dark">Tu negocio, nivel</span> <span class="fsh__title-rainbow">hello.web</span></h2>
+                    <p class="fsh__sub" id="fshSub">Desliza para explorar.</p>
+                    <ol class="fsh__index" id="fshIndex" aria-hidden="true">
+                        <li style="--c:#ff9f3a"><span>Diseño</span></li>
+                        <li style="--c:#ff6f9c"><span>Motion</span></li>
+                        <li style="--c:#5e9bff"><span>Rendimiento</span></li>
+                        <li style="--c:#a37bff"><span>Soporte</span></li>
+                    </ol>
+                </div>
+                <div class="fsh__slot" id="fshSlot" aria-hidden="true"></div>
+                <div class="fsh__cards" id="fshCards">
+                    <article class="fsh__card" style="--c:#ff9f3a">
+                        <div class="fsh__card-inner">
+                            <span class="fsh__card-glow" aria-hidden="true"></span>
+                            <div class="fsh__card-head"><span class="fsh__card-num mono"><strong>01</strong> / 04</span><span class="fsh__card-icon" aria-hidden="true">✦</span></div>
+                            <h3>Diseño que enamora.</h3>
+                            <p>Cada pantalla se diseña desde cero para tu marca. Nada de plantillas ni de "ya lo vi en otro lado".</p>
+                            <div class="fsh__card-foot"><div class="fsh__ticks" aria-hidden="true"><i><span></span></i><i><span></span></i><i><span></span></i><i><span></span></i></div><span class="fsh__card-label">Diseño</span></div>
+                        </div>
+                    </article>
+                    <article class="fsh__card" style="--c:#ff6f9c">
+                        <div class="fsh__card-inner">
+                            <span class="fsh__card-glow" aria-hidden="true"></span>
+                            <div class="fsh__card-head"><span class="fsh__card-num mono"><strong>02</strong> / 04</span><span class="fsh__card-icon" aria-hidden="true">◐</span></div>
+                            <h3>Motion que se siente.</h3>
+                            <p>Transiciones, 3D y efectos de scroll que convierten una visita en una experiencia que se recuerda.</p>
+                            <div class="fsh__card-foot"><div class="fsh__ticks" aria-hidden="true"><i><span></span></i><i><span></span></i><i><span></span></i><i><span></span></i></div><span class="fsh__card-label">Motion</span></div>
+                        </div>
+                    </article>
+                    <article class="fsh__card" style="--c:#5e9bff">
+                        <div class="fsh__card-inner">
+                            <span class="fsh__card-glow" aria-hidden="true"></span>
+                            <div class="fsh__card-head"><span class="fsh__card-num mono"><strong>03</strong> / 04</span><span class="fsh__card-icon" aria-hidden="true">▣</span></div>
+                            <h3>Velocidad que vende.</h3>
+                            <p>Carga en menos de un segundo. Google lo premia, tus clientes lo agradecen y tus ventas lo notan.</p>
+                            <div class="fsh__card-foot"><div class="fsh__ticks" aria-hidden="true"><i><span></span></i><i><span></span></i><i><span></span></i><i><span></span></i></div><span class="fsh__card-label">Rendimiento</span></div>
+                        </div>
+                    </article>
+                    <article class="fsh__card" style="--c:#a37bff">
+                        <div class="fsh__card-inner">
+                            <span class="fsh__card-glow" aria-hidden="true"></span>
+                            <div class="fsh__card-head"><span class="fsh__card-num mono"><strong>04</strong> / 04</span><span class="fsh__card-icon" aria-hidden="true">⌁</span></div>
+                            <h3>Soporte que acompaña.</h3>
+                            <p>Una persona real del otro lado, antes y después del lanzamiento. Tu sitio crece contigo.</p>
+                            <div class="fsh__card-foot"><div class="fsh__ticks" aria-hidden="true"><i><span></span></i><i><span></span></i><i><span></span></i><i><span></span></i></div><span class="fsh__card-label">Soporte</span></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="fsh__progress" aria-hidden="true"><span id="fshProgress"></span></div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ PROYECTOS: galería 3D que vuela hacia ti con el scroll ══════════════ -->
+<!-- Casos de muestra: reemplazar nombres, textos e imágenes por proyectos reales del cliente. -->
+<section class="work" id="proyectos" aria-labelledby="workTitle">
+    <div class="work__spacer" data-pin="work">
+        <div class="work__stage" id="workStage">
+            <div class="work__glow" aria-hidden="true"></div>
+            <div class="work__floor" id="workFloor" aria-hidden="true"></div>
+            <header class="work__head" id="workHead">
+                <span class="eyebrow">Proyectos</span>
+                <h2 class="work__title" id="workTitle">Historias que empezaron con un sitio web.</h2>
+                <p class="work__lead">Cuatro negocios, cuatro retos distintos y un mismo resultado: una presencia digital que trabaja por ellos.</p>
+            </header>
+            <div class="work__scene" id="workScene">
+                <article class="case" data-case style="--c:#f2a65a">
+                    <div class="case__card">
+                        <figure class="case__bg"><img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=2000&q=80" alt="Interior de una cafetería de especialidad con luz cálida" width="2000" height="1333" loading="lazy" decoding="async"></figure>
+                        <div class="case__shade" aria-hidden="true"></div>
+                        <span class="case__num" aria-hidden="true">01</span>
+                        <div class="case__browser" aria-hidden="true">
+                            <div class="case__bar"><span></span><span></span><span></span><i>cafetempranillo.mx</i></div>
+                            <div class="case__screen">
+                                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=75" alt="" width="1000" height="667" loading="lazy" decoding="async">
+                                <div class="case__site"><b>Café Tempranillo</b><strong>Tu café favorito, ahora a domicilio.</strong><em>Ordenar ahora</em></div>
+                            </div>
+                        </div>
+                        <div class="case__content">
+                            <span class="case__tag">E-commerce</span>
+                            <h3 class="case__name">Café Tempranillo</h3>
+                            <p>Tienda en línea con pedidos, pagos y envíos desde el sitio. La fila ahora es digital y la barra atiende sin interrupciones.</p>
+                            <ul class="case__chips"><li>Tienda en línea</li><li>Pagos seguros</li><li>Diseño UX/UI</li></ul>
+                            <a class="link-arrow" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Vi el proyecto de Café Tempranillo y quiero algo similar para mi negocio.">Quiero algo similar <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="case" data-case style="--c:#7dd3fc">
+                    <div class="case__card">
+                        <figure class="case__bg"><img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=2000&q=80" alt="Consultorio dental moderno y luminoso" width="2000" height="1333" loading="lazy" decoding="async"></figure>
+                        <div class="case__shade" aria-hidden="true"></div>
+                        <span class="case__num" aria-hidden="true">02</span>
+                        <div class="case__browser" aria-hidden="true">
+                            <div class="case__bar"><span></span><span></span><span></span><i>clinicaferrer.com</i></div>
+                            <div class="case__screen">
+                                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=75" alt="" width="1000" height="667" loading="lazy" decoding="async">
+                                <div class="case__site"><b>Clínica Dental Ferrer</b><strong>Sonrisas con cita en un clic.</strong><em>Agendar cita</em></div>
+                            </div>
+                        </div>
+                        <div class="case__content">
+                            <span class="case__tag">Sitio corporativo</span>
+                            <h3 class="case__name">Clínica Dental Ferrer</h3>
+                            <p>Agenda de citas 24/7, perfiles de especialistas y una imagen que inspira confianza antes de la primera visita.</p>
+                            <ul class="case__chips"><li>Agenda en línea</li><li>SEO local</li><li>Branding digital</li></ul>
+                            <a class="link-arrow" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Vi el proyecto de Clínica Dental Ferrer y quiero algo similar para mi negocio.">Quiero algo similar <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="case" data-case style="--c:#a78bfa">
+                    <div class="case__card">
+                        <figure class="case__bg"><img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=2000&q=80" alt="Gráficas financieras en una pantalla oscura" width="2000" height="1333" loading="lazy" decoding="async"></figure>
+                        <div class="case__shade" aria-hidden="true"></div>
+                        <span class="case__num" aria-hidden="true">03</span>
+                        <div class="case__browser" aria-hidden="true">
+                            <div class="case__bar"><span></span><span></span><span></span><i>kuali.app</i></div>
+                            <div class="case__screen">
+                                <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1000&q=75" alt="" width="1000" height="667" loading="lazy" decoding="async">
+                                <div class="case__site"><b>Kuali Pagos</b><strong>Cobra en segundos, desde cualquier lugar.</strong><em>Probar la app</em></div>
+                            </div>
+                        </div>
+                        <div class="case__content">
+                            <span class="case__tag">Landing page</span>
+                            <h3 class="case__name">Kuali Pagos</h3>
+                            <p>Landing con motion 3D para presentar su app ante inversionistas. Explica el producto en menos de un minuto.</p>
+                            <ul class="case__chips"><li>Landing page</li><li>Motion 3D</li><li>Copywriting</li></ul>
+                            <a class="link-arrow" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Vi el proyecto de Kuali Pagos y quiero algo similar para mi negocio.">Quiero algo similar <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="case" data-case style="--c:#86efac">
+                    <div class="case__card">
+                        <figure class="case__bg"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80" alt="Fachada de una casa contemporánea al atardecer" width="2000" height="1333" loading="lazy" decoding="async"></figure>
+                        <div class="case__shade" aria-hidden="true"></div>
+                        <span class="case__num" aria-hidden="true">04</span>
+                        <div class="case__browser" aria-hidden="true">
+                            <div class="case__bar"><span></span><span></span><span></span><i>terrazasdelvalle.mx</i></div>
+                            <div class="case__screen">
+                                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=75" alt="" width="1000" height="667" loading="lazy" decoding="async">
+                                <div class="case__site"><b>Terrazas del Valle</b><strong>Encuentra tu próximo hogar.</strong><em>Ver propiedades</em></div>
+                            </div>
+                        </div>
+                        <div class="case__content">
+                            <span class="case__tag">Plataforma web</span>
+                            <h3 class="case__name">Terrazas del Valle</h3>
+                            <p>Portal inmobiliario con búsqueda instantánea, filtros y recorridos virtuales. Cada solicitud llega directo a WhatsApp.</p>
+                            <ul class="case__chips"><li>Plataforma web</li><li>Búsqueda con filtros</li><li>Integración WhatsApp</li></ul>
+                            <a class="link-arrow" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Vi el proyecto de Terrazas del Valle y quiero algo similar para mi negocio.">Quiero algo similar <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="work__hud" aria-hidden="true"><span class="mono"><b id="workCount">01</b> / 04</span><span id="workName">Café Tempranillo</span></div>
+            <div class="work__progress" aria-hidden="true"><span id="workProgress"></span></div>
+        </div>
+    </div>
+    <div class="container work__cta" data-reveal>
+        <p>¿Tu negocio es el siguiente?</p>
+        <a class="btn btn--primary btn--lg" href="#contacto" data-magnetic>Quiero un proyecto así</a>
+    </div>
+</section>
+
+<!-- ══════════════ PROCESO (horizontal 3D) ══════════════ -->
+<section class="process" id="proceso" aria-labelledby="procTitle">
+    <div class="container process__head" data-reveal>
+        <h2 class="h2" id="procTitle" data-split>Un proceso claro, sin sorpresas.</h2>
+        <p class="lead">Sabes qué pasa en cada semana, apruebas cada pantalla y conservas el control de tu sitio.</p>
+    </div>
+    <div class="process__spacer" data-pin="process">
+        <div class="process__stage">
+            <div class="process__track" id="processTrack">
+                <article class="step" data-step>
+                    <span class="step__num" aria-hidden="true">01</span>
+                    <figure class="step__visual"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80" alt="Equipo conversando sobre los objetivos de un proyecto" width="1200" height="800" loading="lazy" decoding="async"></figure>
+                    <div class="step__body"><span class="step__when mono">Semana 1</span><h3>Descubrimiento</h3><p>Entendemos tu negocio, tus clientes y tus metas. Definimos el objetivo del sitio en una sesión de 45 minutos.</p></div>
+                </article>
+                <article class="step" data-step>
+                    <span class="step__num" aria-hidden="true">02</span>
+                    <figure class="step__visual"><img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=1200&q=80" alt="Diseñadora trabajando en la interfaz de un sitio web" width="1200" height="800" loading="lazy" decoding="async"></figure>
+                    <div class="step__body"><span class="step__when mono">Semanas 2 y 3</span><h3>Diseño UX/UI</h3><p>Prototipo navegable antes de escribir una línea de código. Apruebas cada pantalla y cada palabra.</p></div>
+                </article>
+                <article class="step" data-step>
+                    <span class="step__num" aria-hidden="true">03</span>
+                    <figure class="step__visual"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80" alt="Código de un sitio web en una pantalla" width="1200" height="800" loading="lazy" decoding="async"></figure>
+                    <div class="step__body"><span class="step__when mono">Semanas 3 a 5</span><h3>Desarrollo y motion</h3><p>Código a la medida, animaciones y optimización para celular. Pruebas en dispositivos reales antes de publicar.</p></div>
+                </article>
+                <article class="step" data-step>
+                    <span class="step__num" aria-hidden="true">04</span>
+                    <figure class="step__visual"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Analítica de un sitio web en una laptop" width="1200" height="800" loading="lazy" decoding="async"></figure>
+                    <div class="step__body"><span class="step__when mono">Semana 6</span><h3>Lanzamiento y crecimiento</h3><p>Publicamos, medimos y mejoramos. Te capacitamos para que el sitio sea tuyo de verdad.</p></div>
+                </article>
+            </div>
+            <div class="process__bar" aria-hidden="true"><span id="processProgress"></span></div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ BLOQUE CLARO: manifiesto, resultados, testimonios 3D ══════════════ -->
+<section class="light" id="manifiesto" aria-label="Nuestra forma de pensar" data-theme-light>
+    <div class="container">
+        <p class="manifesto" id="manifesto">Creemos que un sitio web no es un gasto: es tu mejor vendedor. Trabaja las 24 horas, no pide vacaciones y habla con miles de personas a la vez. Por eso lo diseñamos con la misma obsesión con la que tú construiste tu negocio.</p>
+    </div>
+
+    <!-- Datos de ejemplo: reemplazar con las métricas reales del negocio. -->
+    <div class="container stats__grid" aria-label="Resultados">
+        <div class="stat" data-scrub><span class="stat__num mono"><span data-count="120" data-prefix="+">0</span></span><span class="stat__label">proyectos entregados</span></div>
+        <div class="stat" data-scrub><span class="stat__num mono"><span data-count="98" data-suffix="%">0</span></span><span class="stat__label">de clientes nos recomiendan</span></div>
+        <div class="stat" data-scrub><span class="stat__num mono"><span data-count="7">0</span></span><span class="stat__label">días de entrega mínima</span></div>
+        <div class="stat" data-scrub><span class="stat__num mono"><span data-count="1" data-prefix="&lt;" data-suffix="s">0</span></span><span class="stat__label">de tiempo de carga promedio</span></div>
+    </div>
+
+    <!-- Testimonios de ejemplo: reemplazar por reseñas reales con autorización. -->
+    <div class="container voices">
+        <div class="voices__intro" data-reveal>
+            <h2 class="h2" id="voicesTitle" data-split>Lo que dicen quienes ya dieron el paso.</h2>
+            <p>Dueños de negocio que hoy reciben clientes desde su sitio web. Esto es lo que nos cuentan después del lanzamiento.</p>
+            <div class="voices__faces" aria-hidden="true"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=96&q=80" alt="" width="46" height="46" loading="lazy"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=96&q=80" alt="" width="46" height="46" loading="lazy"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=96&q=80" alt="" width="46" height="46" loading="lazy"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=96&q=80" alt="" width="46" height="46" loading="lazy"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=96&q=80" alt="" width="46" height="46" loading="lazy"><span>Negocios de todo México</span></div>
+            <a class="btn btn--dark btn--lg" href="#contacto" data-magnetic>Quiero resultados así</a>
+        </div>
+        <div class="wall" id="wall" role="region" aria-labelledby="voicesTitle">
+            <div class="wall__plane">
+                <div class="wall__col" data-speed="46">
+                    <figure class="tcard"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“En dos semanas teníamos un sitio que parece de una marca internacional. Los pedidos en línea ya superan a los del mostrador.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Mariana Ortega</strong>Fundadora, Café Tempranillo</span></figcaption></figure>
+                    <figure class="tcard"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Los pacientes llegan diciendo que la página les dio confianza. La agenda se llena sola.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Dr. Rodrigo Salcedo</strong>Director, Clínica Dental Ferrer</span></figcaption></figure>
+                    <figure class="tcard" aria-hidden="true"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Las reservaciones del restaurante ahora entran solas desde el sitio. Y se ve espectacular en el celular.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Tomás Reyes</strong>Chef y dueño, Restaurante Nido</span></figcaption></figure>
+                    <figure class="tcard" aria-hidden="true"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Mi gimnasio duplicó las inscripciones en línea el primer mes. El sitio se siente como una app.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Andrés Peralta</strong>Director, Gimnasio Forja</span></figcaption></figure>
+                </div>
+                <div class="wall__col wall__col--rev" data-speed="58">
+                    <figure class="tcard"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Presentamos la landing a inversionistas y el efecto fue inmediato. Nadie creía que la hizo un estudio tan pequeño.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Valeria Quintero</strong>Cofundadora, Kuali Pagos</span></figcaption></figure>
+                    <figure class="tcard tcard--accent"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Mi gimnasio duplicó las inscripciones en línea el primer mes. El sitio se siente como una app.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Andrés Peralta</strong>Director, Gimnasio Forja</span></figcaption></figure>
+                    <figure class="tcard" aria-hidden="true"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“En dos semanas teníamos un sitio que parece de una marca internacional. Los pedidos en línea ya superan a los del mostrador.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Mariana Ortega</strong>Fundadora, Café Tempranillo</span></figcaption></figure>
+                    <figure class="tcard" aria-hidden="true"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Nos tomaron en serio desde la primera llamada. Hoy el despacho recibe clientes que nos encuentran en Google.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Lucía Márquez</strong>Socia, Márquez Abogados</span></figcaption></figure>
+                </div>
+                <div class="wall__col" data-speed="42">
+                    <figure class="tcard"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Nos tomaron en serio desde la primera llamada. Hoy el despacho recibe clientes que nos encuentran en Google.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Lucía Márquez</strong>Socia, Márquez Abogados</span></figcaption></figure>
+                    <figure class="tcard"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Las reservaciones del restaurante ahora entran solas desde el sitio. Y se ve espectacular en el celular.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Tomás Reyes</strong>Chef y dueño, Restaurante Nido</span></figcaption></figure>
+                    <figure class="tcard" aria-hidden="true"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Los pacientes llegan diciendo que la página les dio confianza. La agenda se llena sola.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Dr. Rodrigo Salcedo</strong>Director, Clínica Dental Ferrer</span></figcaption></figure>
+                    <figure class="tcard tcard--accent" aria-hidden="true"><div class="tcard__stars" role="img" aria-label="5 de 5 estrellas"><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg><svg width="14" height="14" aria-hidden="true"><use href="#i-star"/></svg></div><blockquote>“Presentamos la landing a inversionistas y el efecto fue inmediato. Nadie creía que la hizo un estudio tan pequeño.”</blockquote><figcaption><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="" width="38" height="38" loading="lazy"><span><strong>Valeria Quintero</strong>Cofundadora, Kuali Pagos</span></figcaption></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ COMPARATIVA ══════════════ -->
+<section class="compare section" id="diferencia" aria-labelledby="cmpTitle">
+    <div class="container">
+        <header class="section__head" data-reveal>
+            <h2 class="h2" id="cmpTitle" data-split>Lo que una plantilla no puede darte.</h2>
+        </header>
+        <div class="compare__grid" id="compareGrid">
+            <div class="compare__col compare__col--them" data-scrub>
+                <h3>Plantilla genérica</h3>
+                <ul>
+                    <li style="--i:0"><svg width="18" height="18" aria-hidden="true"><use href="#i-x"/></svg><span>Se ve igual que miles de sitios</span></li>
+                    <li style="--i:1"><svg width="18" height="18" aria-hidden="true"><use href="#i-x"/></svg><span>Carga lenta por código innecesario</span></li>
+                    <li style="--i:2"><svg width="18" height="18" aria-hidden="true"><use href="#i-x"/></svg><span>Sin estrategia de conversión</span></li>
+                    <li style="--i:3"><svg width="18" height="18" aria-hidden="true"><use href="#i-x"/></svg><span>SEO básico o inexistente</span></li>
+                    <li style="--i:4"><svg width="18" height="18" aria-hidden="true"><use href="#i-x"/></svg><span>Soporte por tickets y bots</span></li>
+                </ul>
+            </div>
+            <div class="compare__col compare__col--us" data-scrub data-spot data-tilt>
+                <span class="beam" aria-hidden="true"></span>
+                <h3>hello<em>.</em>web</h3>
+                <ul>
+                    <li style="--i:0"><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span>Diseño único, creado para tu marca</span></li>
+                    <li style="--i:1"><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span>Velocidad optimizada en cada pantalla</span></li>
+                    <li style="--i:2"><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span>Copy y estructura pensados para vender</span></li>
+                    <li style="--i:3"><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span>SEO técnico incluido desde el inicio</span></li>
+                    <li style="--i:4"><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span>Una persona real que responde por WhatsApp</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ CARTEL QUE SE RASGA ══════════════
+     Basado en "Tiger Tear Reveal" de 21st.dev, portado a JavaScript y adaptado a la marca:
+     el scroll rompe el cartel y un tigre de ojos azules se asoma por el hueco. -->
+<section class="tear" id="destaca" aria-labelledby="tearTitle" data-theme-light>
+    <div class="tear__spacer" data-pin="tear">
+        <div class="tear__stage" id="tearStage">
+            <h2 class="sr-only" id="tearTitle">Olvídate de lo genérico. Tu marca merece rugir.</h2>
+            <div class="tear__art" id="tearArt" aria-hidden="true">
+                <div class="tear__poster"><span class="tear__tag">OLVÍDATE DE LO</span><span class="tear__word">GENÉRICO</span></div>
+            </div>
+            <div class="tear__cta" id="tearCta">
+                <p class="tear__line">Tu marca merece <em>rugir.</em></p>
+                <a class="btn btn--dark btn--lg" href="#contacto" data-magnetic>Quiero destacar</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ PLANES ══════════════ -->
+<section class="plans section" id="planes" aria-labelledby="plansTitle">
+    <div class="container">
+        <header class="section__head" data-reveal>
+            <span class="eyebrow">Planes</span>
+            <h2 class="h2" id="plansTitle" data-split>Elige cómo empezar.</h2>
+            <p class="lead">Cada proyecto se cotiza a la medida. Estos son los puntos de partida más comunes.</p>
+        </header>
+        <div class="plans__grid">
+            <article class="plan plan--featured" data-scrub data-spot data-tilt>
+                <span class="beam" aria-hidden="true"></span>
+                <div class="plan__head">
+                    <span class="plan__badge">El más elegido</span>
+                    <h3>Sitio corporativo</h3>
+                    <p>Para empresas que quieren una presencia completa y una imagen a la altura de su servicio.</p>
+                </div>
+                <ul class="plan__list">
+                    <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Hasta 8 secciones o páginas</li>
+                    <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Animaciones, 3D y motion a la medida</li>
+                    <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Blog o catálogo administrable</li>
+                    <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>SEO técnico completo</li>
+                    <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Capacitación para tu equipo</li>
+                    <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Entrega en 3 a 4 semanas</li>
+                </ul>
+                <a class="btn btn--primary btn--block" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Quiero cotizar un sitio corporativo para mi empresa." data-magnetic>Quiero mi sitio corporativo</a>
+            </article>
+            <div class="plans__side">
+                <article class="plan" data-scrub data-spot data-tilt>
+                    <div class="plan__head"><h3>Landing page</h3><p>Ideal para campañas, lanzamientos y captar clientes con una sola página.</p></div>
+                    <ul class="plan__list">
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Diseño único y copy persuasivo</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Formulario conectado a WhatsApp</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>SEO base y velocidad optimizada</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Entrega en 7 a 10 días</li>
+                    </ul>
+                    <a class="btn btn--ghost btn--block" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Quiero cotizar una landing page.">Quiero una landing page</a>
+                </article>
+                <article class="plan" data-scrub data-spot data-tilt>
+                    <div class="plan__head"><h3>E-commerce y a la medida</h3><p>Tiendas en línea y plataformas con funciones especiales para tu operación.</p></div>
+                    <ul class="plan__list">
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Catálogo, carrito y pagos en línea</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Integraciones con envíos y CRM</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Panel de administración</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg>Soporte prioritario</li>
+                    </ul>
+                    <a class="btn btn--ghost btn--block" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Quiero cotizar una tienda en línea o una plataforma a la medida.">Quiero cotizar mi tienda</a>
+                </article>
+            </div>
+        </div>
+        <p class="plans__note" data-reveal>Recibes una cotización clara y por escrito en menos de 24 horas.</p>
+    </div>
+</section>
+
+<!-- ══════════════ PREGUNTAS FRECUENTES ══════════════ -->
+<section class="faq section" id="faq" aria-labelledby="faqTitle">
+    <div class="container faq__grid">
+        <header class="section__head faq__head" data-reveal>
+            <h2 class="h2" id="faqTitle" data-split>Preguntas frecuentes.</h2>
+            <p class="lead">Si tu duda no está aquí, escríbenos y la resolvemos en minutos.</p>
+            <a class="btn btn--ghost" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Tengo una duda sobre sus servicios."><svg width="18" height="18" aria-hidden="true"><use href="#i-whatsapp"/></svg> Preguntar por WhatsApp</a>
+        </header>
+        <div class="faq__list">
+            <details class="faq__item" open data-scrub><summary><span>¿Cuánto tarda el desarrollo de mi sitio web?</span><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="faq__body"><p>Una landing page se entrega en 7 a 10 días. Un sitio corporativo toma de 3 a 4 semanas y una tienda en línea depende del catálogo y las integraciones. Recibes un calendario claro antes de empezar.</p></div></details>
+            <details class="faq__item" data-scrub><summary><span>¿Qué necesito para empezar?</span><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="faq__body"><p>Solo tu idea y una sesión de descubrimiento de 45 minutos. Si no tienes logo, textos o fotografías, te ayudamos a resolverlo.</p></div></details>
+            <details class="faq__item" data-scrub><summary><span>¿El sitio incluye hosting y dominio?</span><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="faq__body"><p>Te asesoramos para contratar el dominio a tu nombre y configuramos un hosting rápido y seguro. Tú conservas la propiedad de todo.</p></div></details>
+            <details class="faq__item" data-scrub><summary><span>¿Podré editar el contenido yo mismo?</span><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="faq__body"><p>Sí. Entregamos el sitio con un panel sencillo o te capacitamos para actualizar textos, imágenes y productos sin depender de nadie.</p></div></details>
+            <details class="faq__item" data-scrub><summary><span>¿Cómo funcionan los pagos?</span><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="faq__body"><p>Trabajamos con un anticipo para iniciar y el resto contra entrega. Todo queda por escrito antes de empezar.</p></div></details>
+            <details class="faq__item" data-scrub><summary><span>¿Qué pasa después del lanzamiento?</span><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="faq__body"><p>Monitoreamos el sitio durante los primeros 30 días y ofrecemos planes de mantenimiento con mejoras continuas, seguridad y soporte humano.</p></div></details>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ CTA FINAL ══════════════ -->
+<section class="final" id="cta" aria-labelledby="finalTitle">
+    <div class="final__bg" aria-hidden="true">
+        <canvas class="final__gl" id="finalCanvas"></canvas>
+        <div class="final__vignette"></div>
+    </div>
+    <div class="container final__inner" data-reveal>
+        <h2 class="final__title" id="finalTitle" data-split>¿Listo para que tu negocio se vea así de bien?</h2>
+        <p class="lead">Cuéntanos tu idea por WhatsApp y recibe una propuesta en menos de 24 horas.</p>
+        <div class="final__cta">
+            <svg class="ringtext" viewBox="0 0 200 200" aria-hidden="true">
+                <defs><path id="ringPath" d="M100,100 m-82,0 a82,82 0 1,1 164,0 a82,82 0 1,1 -164,0"/></defs>
+                <text><textPath href="#ringPath">hablemos · hablemos · hablemos · hablemos · </textPath></text>
+            </svg>
+            <a class="btn btn--primary btn--xl" href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-text="Hola, Hello Web. Estoy listo para empezar mi sitio web. ¿Podemos hablar?" data-magnetic>Estoy listo, hablemos <svg width="20" height="20" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ CONTACTO ══════════════ -->
+<section class="contact section" id="contacto" aria-labelledby="contactTitle">
+    <div class="contact__aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="container contact__grid">
+        <div class="contact__info" data-reveal>
+            <span class="eyebrow">Contacto</span>
+            <h2 class="h2" id="contactTitle" data-split>Cuéntanos tu proyecto.</h2>
+            <p class="lead">Completa el formulario y abriremos WhatsApp con tu mensaje listo. Una persona real te responde, no un bot.</p>
+            <ul class="contact__list">
+                <li><svg width="20" height="20" aria-hidden="true"><use href="#i-whatsapp"/></svg><div><strong>WhatsApp</strong><a href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-label>+52 000 000 0000</a></div></li>
+                <li><svg width="20" height="20" aria-hidden="true"><use href="#i-mail"/></svg><div><strong>Correo</strong><a href="mailto:hola@helloweb.mx">hola@helloweb.mx</a></div></li>
+                <li><svg width="20" height="20" aria-hidden="true"><use href="#i-clock"/></svg><div><strong>Horario</strong><span>Lunes a viernes, 9:00 a 18:00 h</span></div></li>
+            </ul>
+        </div>
+        <form class="form" id="contactForm" novalidate data-scrub>
+            <span class="beam" aria-hidden="true"></span>
+            <div class="form__row">
+                <div class="field"><label for="fName">Nombre</label><input type="text" id="fName" name="nombre" autocomplete="name" required minlength="2" placeholder="¿Cómo te llamas?"><small class="field__error">Escribe tu nombre para poder saludarte.</small></div>
+                <div class="field"><label for="fBiz">Negocio o empresa</label><input type="text" id="fBiz" name="negocio" autocomplete="organization" placeholder="Nombre de tu negocio"></div>
+            </div>
+            <div class="form__row">
+                <div class="field"><label for="fType">¿Qué necesitas?</label>
+                    <select id="fType" name="tipo" required>
+                        <option value="" selected disabled>Elige una opción</option>
+                        <option>Landing page</option><option>Sitio corporativo</option><option>Tienda en línea</option><option>Plataforma o app web</option><option>Rediseño de mi sitio actual</option><option>Aún no lo sé, necesito asesoría</option>
+                    </select><small class="field__error">Elige el tipo de proyecto.</small></div>
+                <div class="field"><label for="fBudget">Presupuesto estimado</label>
+                    <select id="fBudget" name="presupuesto">
+                        <option value="" selected disabled>Opcional</option>
+                        <option>Menos de $15,000 MXN</option><option>$15,000 a $40,000 MXN</option><option>$40,000 a $100,000 MXN</option><option>Más de $100,000 MXN</option>
+                    </select></div>
+            </div>
+            <div class="field"><label for="fMsg">Cuéntanos tu idea</label><textarea id="fMsg" name="mensaje" rows="4" required minlength="10" data-lenis-prevent placeholder="¿Qué quieres lograr con tu sitio web?"></textarea><small class="field__error">Cuéntanos un poco más (mínimo 10 caracteres).</small></div>
+            <button class="btn btn--primary btn--lg btn--block" type="submit" data-magnetic><svg width="18" height="18" aria-hidden="true"><use href="#i-whatsapp"/></svg> Enviar por WhatsApp</button>
+            <p class="form__note">Sin spam y sin compromiso. Respondemos en menos de 24 horas hábiles.</p>
+            <div class="form__success" id="formSuccess" hidden><strong>Listo, abrimos WhatsApp con tu mensaje.</strong><span>Si no se abrió automáticamente, <a href="https://wa.me/520000000000" id="formFallback" target="_blank" rel="noopener">haz clic aquí</a>.</span></div>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<!-- ══════════════ FOOTER (se revela por debajo del contenido) ══════════════ -->
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__brand">
+                <a class="brand brand--lg" href="#inicio" aria-label="Hello Web, ir al inicio"><span class="brand__text">hello<em>.</em>web</span></a>
+                <p>Diseño y desarrollo web premium para negocios que quieren verse como una gran marca.</p>
+                <div class="footer__social">
+                    <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="20" height="20" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+                    <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="20" height="20" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+                </div>
+            </div>
+            <nav class="footer__col" aria-label="Navegación del pie"><h4>Navegación</h4><a href="#servicios" data-scramble>Servicios</a><a href="#experiencia" data-scramble>Experiencia</a><a href="#proyectos" data-scramble>Proyectos</a><a href="#proceso" data-scramble>Proceso</a><a href="#planes" data-scramble>Planes</a><a href="#faq" data-scramble>Preguntas frecuentes</a></nav>
+            <nav class="footer__col" aria-label="Servicios"><h4>Servicios</h4><a href="#servicios">Landing pages</a><a href="#servicios">Sitios corporativos</a><a href="#servicios">E-commerce</a><a href="#servicios">Animación, 3D y motion</a><a href="#servicios">SEO y rendimiento</a></nav>
+            <div class="footer__col"><h4>Contacto</h4><a href="https://wa.me/520000000000" target="_blank" rel="noopener" data-wa data-wa-label>+52 000 000 0000</a><a href="mailto:hola@helloweb.mx">hola@helloweb.mx</a><span>México, atendemos a todo el país</span></div>
+        </div>
+        <div class="footer__giant" id="footerGiant" aria-hidden="true"><span style="--i:0">h</span><span style="--i:1">e</span><span style="--i:2">l</span><span style="--i:3">l</span><span style="--i:4">o</span><span class="footer__giant-dot" style="--i:5">.</span><span style="--i:6">w</span><span style="--i:7">e</span><span style="--i:8">b</span></div>
+        <div class="footer__bottom">
+            <span>© <span id="year">2026</span> Hello Web. Todos los derechos reservados.</span>
+            <a href="#">Aviso de privacidad</a>
+        </div>
+    </div>
+</footer>
+
+<a class="wa-float" id="waFloat" href="https://wa.me/520000000000" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp" data-wa data-wa-text="Hola, Hello Web. Me gustaría información sobre un sitio web.">
+    <span class="wa-float__pulse" aria-hidden="true"></span>
+    <span class="wa-float__tip" aria-hidden="true">¿Hablamos?</span>
+    <svg width="28" height="28" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+</a>
+
+<!-- Scroll suave con inercia (Lenis) -->
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
